@@ -638,24 +638,21 @@ background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
 box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
 }
 
-.buton{
-    align-items: center;
-    width: 1440px;
+.but{
     height: 50px;
-
+    margin: 96px auto;
+}
+.buton{
+    width: 385px;
+    margin: 0 auto;
 }
 .buton a {
-    width: 204px;
-    position: absolute;
-    bottom: -1177px;
-    left: 687px;
+    width: 304px;
+    height: 50px;
+    padding: 15px 50px;
+    border-radius: 25px;
     text-decoration: none;
-    color: white;
-padding: 15px 50px;
-border-radius: 25px;
-background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
-box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
-color:  #FFF;
+    color: #FFF;
 text-align: center;
 font-family: Montserrat;
 font-size: 16px;
@@ -663,8 +660,6 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-
-
 
 
 
@@ -712,8 +707,6 @@ background: linear-gradient(90deg, #DD6A00 0.2%, #F99806 99.82%);
 box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 4px 20px 0px rgba(0, 0, 0, 0.10) inset;
 }
 .btn:active{
-    display: block;
-	position: absolute;
     border-radius: 25px;
 background: linear-gradient(90deg, #DD6A00 0.2%, #F99806 99.82%);
 box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 7px 5px 0px rgba(0, 0, 0, 0.20) inset;
