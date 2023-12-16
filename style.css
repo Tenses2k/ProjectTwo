@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0 auto;
+    width: 1360px;
+    height: 956px;
+    padding-left: 80px;
+}
+.back{
+    width: 750px;
+    height: 810px;
+    background: #2B7AF1;
+    margin-left: 610px;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+}
+.logo{
+    margin-top: 30px;
+    margin-right: 54.21px;
+
+}
+.bar{
+    margin-top: 25px;
+    width: 1090px;
+    height: 52px;
+}
+nav{
+    display: flex;
+}
+.bar1{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   margin: 17px 52px 15px 0;
+   width: 404px;
+   height: 20px;
+}
+
+.bar1 a {
+color: #111;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+
+.bar1 a {
+    position: relative;
+	color: black; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+
+.bar1 a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: black; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+
+.bar1 a:hover:after, .bar1 a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+ .bar2{
+    width: 634px;
+    height: 52px;
+    display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   position: absolute;
+ }
+.email{
+    display: inline-flex;
+    width: 180px;
+    height: 40px;
+   align-items: center;
+   gap: 10px;
+}
+.email img{
+    width: 40px;
+    height: 40px;
+}
+
+.email a{
+    width: 130px;
+    height: 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 20px 7px 0;
+    line-height: 20px;
+}
+
+.phone{
+    width: 191px;
+    height: 49px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.phone a{
+    width: 141px;
+    height: 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0px 7px 0;
+    line-height: 20px;
+}
+.phone img {
+    width: 40px;
+    height: 40px;
+}
+
+.btnNav{
+ display: inline-flex;
+width: 218px;
+height: 52px;
+justify-content: center;
+align-items: center;
+border-radius: 25px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+}
+
+.btnNav a{
+    padding: 15px 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.leftText{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 413px;
+    height: 296px;
+}
+.zag h1{
+    color: #111;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+}
+.zag p{
+    width: 285px;
+    height: 66px;
+    color: #111;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.zag{
+    width: 413px;
+    height: 184px;
+}
+.arenda{
+    width: 1360px;
+    height: 461px;
+    margin: 0 auto;
+}
+.btnArenda{
+    display: inline-flex;
+    width: 251px;
+    height: 52px;
+    justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 25px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+}
+.btnArenda a{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.arendasoder{
+    width: 413px;
+    height: 296px;
+    margin: 132px 52px 97px 0px;
+}
+.arendasoder{
+    display: flex;
+}
+.rightPt{
+display: flex;
+width: 895px;
+height: 473px;
+position: relative;
+bottom: 90px;
+left: 30px;
+flex-wrap: wrap;
+
+}
+
+.bloki{
+    width: 1280px;
+    height: 276px;
+    margin: 0 auto;
+    position: absolute;
+}
+.blocks{
+    width: 1280px;
+    height: 276px;
+    display: inline-flex;
+    gap: 20px   ;
+}
+#fotHead{
+    width: 305px;
+    height: 276px;
+}
+
+#w{
+width: 305px;
+height: 231px;
+box-shadow: 0px 5px 20px 0px rgba(17, 17, 17, 0.30);
+border-radius: 10px;
+background: #FFF;
+}
+.ph{
+    margin: 40px 113px 26px 112px;
+}
+
+.blc1 p{
+    width: 265px;
+    height: 66px;
+    color: #111;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+line-height: 24px;
+margin: 0 auto;
+margin-top: -6px;
+}
+#t{
+width: 265px;
+height: 44px;
+color: #111;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+line-height: 24px;
+margin: 0 auto;
+margin-top: -6px;
+}
+
+
+.btn{
+    cursor: pointer;
+    position: relative;
+    border-radius: 25px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+
+/* Shadow */
+box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.10);
+}
+.btn:hover{
+    border-radius: 25px;
+background: linear-gradient(90deg, #DD6A00 0.2%, #F99806 99.82%);
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 4px 20px 0px rgba(0, 0, 0, 0.10) inset;
+}
+.btn:active{
+    display: block;
+	position: absolute;
+    border-radius: 25px;
+background: linear-gradient(90deg, #DD6A00 0.2%, #F99806 99.82%);
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 7px 5px 0px rgba(0, 0, 0, 0.20) inset;
+}
