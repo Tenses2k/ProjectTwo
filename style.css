@@ -229,7 +229,7 @@ width: 895px;
 height: 473px;
 position: relative;
 bottom: 90px;
-left: 30px;
+left: 32px;
 flex-wrap: wrap;
 
 }
@@ -259,7 +259,7 @@ border-radius: 10px;
 background: #FFF;
 }
 .ph{
-    margin: 40px 113px 26px 112px;
+    margin: 40px 113px 26px 108px;
 }
 
 .blc1 p{
@@ -298,9 +298,8 @@ margin-top: -6px;
 
 
 main{
-    padding-left: 80px;
     margin: 0 auto;
-    width: 1440px;
+    width: 1280px;
 }
 .section1{
     margin: 0 auto;
@@ -309,7 +308,6 @@ main{
 }
 .rent{
     margin: 0 auto;
-    padding-left: 45px;
 }
 .rent h2 {
     margin-bottom: 40px;
@@ -379,7 +377,9 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-
+padding: 8px 20px;
+align-items: center;
+margin: 0 0 10px 232px;
 }
 
 .idownp{
@@ -401,28 +401,217 @@ line-height: normal;
 }
 
 .but{
+    align-items: center;
     height: 50px;
-    width: 915px;
     margin: 60px auto ;
-    padding: 35px 0 0 530px ;
 }
-.buton{
-    width: 304px;
-}
-.buton a {
+.but a {
+    display: block;
     width: 304px;
     height: 50px;
-    padding: 15px 50px;
     border-radius: 25px;
     text-decoration: none;
     color: #FFF;
 text-align: center;
+align-items: center;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0 auto;
+line-height: 50px;
 }
+
+
+
+.ii{
+    width: 522px;
+    height: 300px;
+    background: url(img/Group\ 31.png);
+
+}
+.ii h2 {
+    color:  #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 117px 0 0 36px;
+}
+
+.ii p {
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 64px 0 0 36px;
+}
+.ii span{
+    margin-left: 5px;
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.idownpp{
+    display: flex;
+    height: 33px;
+    width: 461.5px;
+    align-items: center;
+}
+.idownpp p {
+    margin: 0;
+}
+.idownpp{
+    width: 100%;
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.idownn{
+    margin: 18px 0 0 35px;
+}
+
+.idownpp img {
+    margin-right: 10px;
+}
+.idownpp a {
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 8px 20px;
+align-items: center;
+margin: 0 0 10px 47px;
+}
+
+.rentdown{
+    margin-top: 20px;
+    display: flex;
+    width: 1280px;
+    gap: 20px;
+}
+
+.d{
+    width: 522px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(img/Group\ 32.png);
+}
+.new {
+    margin: -20px 0 0 0px;
+}
+.new p{
+    height: 15px;
+    width: 103px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+align-items: center;
+border-radius: 20px;
+background: #5CB85C;
+padding: 8px 15px;
+}
+#new{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.d h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 65px 0 0 40px;
+}
+.d p {
+    margin: 42px 0 0 40px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.d span{
+    margin-left: 7px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.ddown{
+    margin: 13px 0 0 40px;
+    height: 33px;
+    width: 461.5px;
+    display: flex;
+    gap: 11px;
+    color: white;
+    align-items: end;
+}
+
+.ddown p {
+    margin: 0   ;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ddown img{
+    width: 22px;
+    height: 22px;
+
+}
+
+
+.ddown a {
+    margin-left: 48px;
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 8px 20px;
+align-items: center;
+
+}
+
+
+#sutki{
+    padding-top: 20px;
+}
+
+
+
+
 
 
 .section2{
@@ -431,8 +620,9 @@ line-height: normal;
 }
 
 .blouk{
-    padding-top: 38px;
-    padding-left: 40px;
+    display: flex;
+    padding-top: 54px;
+
 }
 .bloukText{
     width: 433px;
@@ -457,35 +647,678 @@ line-height: normal;
 }
 
 
+.dd{
+    width: 738px;
+    height: 300px;
+    background: url(img/Group\ 33.png) center 25%;
+    border-radius: 10px;
+    color: white;
+}
+.dd h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 116px 0 0 41px;
+}
+
+#nurik{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 65px 0 0 40px;
+}
+#nurik span{
+    margin-left: 10px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.dddown{
+    margin: 12px 0 0 41px;
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.dddown p {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dddown a {
+    margin-left: 267px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    text-decoration: none;
+padding: 8px 20px;
+align-items: center;
+}
+
+.dddown img{
+    width: 22px;
+    height: 22px;
+}
+
+
+.rightIcon{
+    display: flex;
+    width: 748px;
+    height: 88px;
+    padding-top: 103px;
+    padding-left: 98px;
+    gap: 100px  ;
+}
+
+.kli{
+    width: 191px;
+    height: 88px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.txt {
+    padding-top: 3px;
+    width: 81px;
+    height: 80px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+.txt h3 {
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.txt p {
+    color: #111;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+
+
+.wechat{
+    width: 186px;
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.txt1 {
+    width: 86px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.txt1 h3 {
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.txt1 p {
+    color: #111;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+
+.house{
+    width: 171px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+    padding-bottom: 10px    ;
+}
+.txt2{
+    width: 71px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.txt2 h3 {
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.txt2 p {
+    color: #111;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+
+.underline{
+    width: 1280px;
+height: 1px;
+margin: 100px auto;
+border-radius: 1px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+}
+
+.sec2{
+    width: 1280px;
+    padding-top: 152px;
+    display: flex;
+
+}
+
+.kontakti{
+    display: flex;
+    flex-direction: column;
+    gap: 41.96px;
+    width: 381px;
+    height: 238.108px;
+    
+}
+.kontakti h2 {
+    color:  #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.prochee{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+    
+}
+#pipi{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 40px;
+    
+}
+#pip{
+    color: #111;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.seti{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 482px;
+    height: 95px;
+    padding-top: 92px;
+}
+
+#set{
+    width: 202px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.seti a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+width: 157px;
+padding: 8px 37px;
+align-items: center;
+border-radius: 25px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+
+/* Shadow btn */
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+}
+
+.rightsire{
+    margin-left: 40px;
+    width: 758px;
+height: 429px;
+    background: url(img/Map.png) center 25%;
+}
 
 
 
 
 
 
+/* /////////////////footer////////////////// */
 
 
 
 
 
 
+footer{
+    margin: 0 auto;
+    width: 1440px;
+}
+.otzivi{
+    width: 1280px;
+    height: 379px;
+    margin: 100px 80px 170px 80px;
+}
+.backk{
+    width: 1440px;
+    height: 649px;
+    background: url(img/Group\ 35.png);
+    margin: 160px auto 100px;
+}
+
+.otzivi h1 {
+    margin-bottom: 40px;
+    padding-top: 100px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; /* 46.8px */
+}
+
+.blokiOtziv{
+    display: flex;
+    gap: 20px;
+
+}
+
+.blockkk1{
+    width: 630px;
+    height: 292px;
+    background-color: white;
+    border-radius: 10px;
+}
+.up h2 {
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+margin-left: 4px;
+}
+.up img{
+    width: 120px;
+    height: 20px;
+}
+.mid p {
+    color: #111;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 550px;
+height: 88px;
+margin-bottom: 38px;
+}
+.dn{
+    display: flex;
+    width: 551px;
+    gap: 268px;
+    
+}
+#yan{
+    height: 39px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    color:  #111;
+text-align: right;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ek{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ek h3 {
+    color:  #2B7AF1;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 18.2px */
+
+}
+.ek p {
+    color:  #111;
+text-align: right;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+}
+.blockkk2{
+    width: 630px;
+    height: 292px;
+    background-color: white;
+    border-radius: 10px;
+}
+.up {
+    display: flex;
+    gap: 235px;
+}
+.blik{
+    margin: 40px 0px 5px 40px;
+}
 
 
 
+.blin{
+    margin: 40px 10px 10px 42px;
+    width: 551px;
+    height: 212px;
+}
+
+.verh{
+    display: flex;
+    gap: 218px;
+}
+.verh img{
+    width: 95px;
+height: 20px;
+}
+.verh h2 {
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.snizu{
+    display: flex;
+    gap: 282px;
+
+}
+.ke{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ke h3{
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 18.2px */
+}
 
 
+.conec{
+    height: 255px;
+    display: flex;
+    gap: 41px;
+}
+.anketa{
+    width: 393px;
+    height: 451px;
+    background-color: white;
+    border-radius: 10px;
+    filter: drop-shadow(0px -5px 20px rgba(41, 41, 42, 0.20));
+    margin-left:  190px;
+    
+}
+.anketa h3 {
+    margin-bottom: 24px;
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 40px;
+margin-left: 9px;
+}
+.anketa input{
+    width: 299px;
+height: 42px;
+border-radius: 10px;
+padding-left: 10px;
+margin-bottom: 15px;
+border-radius: 10px;
+border: 1px solid var(---Shadow, rgba(17, 17, 17, 0.50));
+}
+input placeholder{
+    color: var(---Shadow, rgba(17, 17, 17, 0.50));
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#bigas{
+    width: 299px;
+height: 115px;
+
+}
+.kuhnya{
+    width: 1440px;
+    height: 557px;
+    background: url(img/Group\ 39.png);
+}
+.wow p{
+    color: #111;
+font-feature-settings: 'liga' off;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+.tany h2{
+    color: #2B7AF1;
+    font-feature-settings: 'liga' off;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    margin-left: 42px;
+    margin-top: 19px;
+}
+.tany p {
+    color:#111;
+font-feature-settings: 'liga' off;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-left: 42px;
+}
+
+.knopik{
+    width: 152px;
+    height: 50px;
+    margin: 19px auto;
+}
+
+.anketa a{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 15px 30px;
+align-items: center;
+border-radius: 25px;
+background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+
+/* Shadow btn */
+box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+text-decoration: none;
+}
+
+.textconec{
+    width: 746px;
+    height: 214px;
+}
+.wow{
+    position: relative;
+}
+.wow img{
+    position: absolute;
+    bottom: 145px;
+}
+
+.anketa1{
+    width: 313px;
+    height: 297px;
+    margin: 0 auto;
+}
+
+#dorog{
+    margin: 40px 0 0 42px;
+}
+
+.niiz button{
+    width: 150px;
+height: 60px;
+border-radius: 10px;
+background: #2B7AF1;
+color:  #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.niiz{
+    display: flex;
+    padding-top: 415px;
+    align-items: center;
+    gap: 40px;
+    width: 1280px;
+    height: 60px;
+    margin: 0 auto;
+    
+}
+.niiz a{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+} 
+
+.naav{
+    width: 404px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 12px;
+}
+
+.emaiiil{
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    height: 40px;
+    align-items:center ;
+    color: white;
+}
+.emaiiil img{
+    width: 40px;
+    height: 40px;
+    
+}
+.phoooone img{
+    width: 40px;
+    height: 40px;
+    
+}
+.phoooone{
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    height: 40px;
+    align-items:center ;
+    color: white;
+}
+.socseti{
+    display: flex;
+    gap: 10px;
+}
+
+#pl{
+width: 1280px;
+height: 1px;
+color: white;
+margin: 0px auto;
+background-color: white;
 
 
-
-
-
-
-
-
-
-
-
-
+}
+.niiz{
+    margin-bottom: 22px;
+}
 .btn{
     cursor: pointer;
     position: relative;
@@ -504,4 +1337,10 @@ box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 4px 20px 0px rgba(0, 
     border-radius: 25px;
 background: linear-gradient(90deg, #DD6A00 0.2%, #F99806 99.82%);
 box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 7px 5px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+
+@media screen and (max-width: 320px) 
+{
+    
 }
