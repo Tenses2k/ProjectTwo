@@ -323,328 +323,91 @@ line-height: normal;
 .rentup{
     display: flex;
     width: 1280px;
-    height: 300px;
     gap: 20px;
 }
+
 .i{
-    width: 1280px;
+    background: url(img/backgroundKvasUp.png) center 25%;
     height: 300px;
-    position: relative;
-    bottom: 10px;
-    right: 22px;
-}
-.info1{
-    position: absolute;
-    bottom: 120px;
-    left: 60px;
-    width: 344px;
-    height: 55px;
+    width: 738px;
+    border-radius: 10px;
 }
 
+.i h2 {
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 117px 0 0 36px;
+}
 
-.info2{
-    display: flex;
-    position: absolute;
-    bottom: 4px;
-    left: 62px;
+.i p {
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 64px 0 0 36px;
+}
+.i span{
+    margin-left: 5px;
+    color:  #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.idown{
     width: 678px;
     height: 33.5px;
     align-items: center;
+    margin: 17px 0 0 35px;
 }
-
-#qr{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: 29px;
+.idownp img{
+    margin-right: 9px;
 }
-#rq{
-    color:  #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-#rq span{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-.info1 #rq{
-    margin-top: 67px;
-    padding-left: 5px;
-}
-
-.info2 p {
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.info2 img{
-    width: 22px;
-    height: 22px;
-    margin-right: 8px;
-}
-.info2 a{
-    position: absolute;
-    right: 2px;
-    bottom: 7px;
+.idownp a {
     text-decoration: none;
-    color: white;
-padding: 7px 26px;
-border-radius: 25px;
-background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
-box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
 }
 
-.ii{
-    width: 522px;
-    height: 300px;
-    position: relative;
-    right: 41px;
-}
-.info11{
-    position: absolute;
-    bottom: 66px;
-    left: 40px;
-    width: 337px;
-    height: 118px;
-}
-.info11 #rq{
-    margin-top: 64px;
-}
-.info11 #rq span{
-    padding-left: 6px;
-}
-
-.info22{
-    width: 461.5px;
-    height: 33px;
+.idownp{
     display: flex;
-    position: absolute;
-    bottom: 15px;
-    left: 40px;
+    height: 33.5px;
     align-items: center;
 }
-.info22 p {
-    color:#FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-} 
-.info22 img {
-    margin-right: 8px;
-    width: 22px;
-    height: 22px;
+.idownp p {
+    margin: 0;
 }
-.info22 a {
-    position: absolute;
-    right: 2px;
-    bottom: 5px;
-    text-decoration: none;
-    color: white;
-padding: 7px 26px;
-border-radius: 25px;
-background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
-box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
-}
-
-
-
-
-.rentdown{
-    display: flex;
-    width: 1280px;
-    height: 300px;
-    gap: 20px;
-}
-
-.d{
-    width: 522px;
-    height: 300px;
-    position: relative;
-    top: 20px;
-    right: 5px;
-}
-
-.dinfo1{
-    width: 339px;
-    height: 118px;
-    position: absolute;
-    bottom: 65px;
-    left: 40px;
-}
-
-#new{
-    color:  #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    bottom: 185px;
-padding: 8px 15px;
-align-items: center;
-border-radius: 20px;
-background: #5CB85C;
-}
-#nuf{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-#nif{
-    margin-top: 63px;
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-#nif span{
-    margin-left: 6px;
-    color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-.dinfo2{
-    width: 461.5px;
-    height: 33px;
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    left: 40px;
-}
-
-.dinfo2 p {
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.dinfo2 img{
-    width: 22px;
-    height: 22px;
-    margin-right: 10px;
-}
-.dinfo2 a {
-    position: absolute;
-    bottom: 10px;
-    right: 0;
-    text-decoration: none;
-    color: white;
-padding: 7px 26px;
-border-radius: 25px;
-background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
-box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
-}
-
-
-.dd{
-    width: 522px;
-    height: 300px;
-    position: relative;
-    top: 10px;
-    right: 25px;
-}
-.dinfo11{
-    width: 340px;
-    height: 118px;
-    position: absolute;
-    bottom: 56px;
-    left: 60px;
-}
-#nuuf{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-#niif{
-    margin-top: 65px;
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-#niif span{
-    margin-left: 6px;
-    color:  #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-
-.dinfo22{
-    display: flex;
-    width: 678px;
-    height: 33.5px;
-    position: absolute;
-    bottom: 0px;
-    left: 60px;
-}
-
-.dinfo22 img {
-    width: 22px;
-    height: 22px;
-    margin-right: 10px;
-}
-.dinfo22 p {
+.idownp{
+    width: 100%;
     color:  #FFF;
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-}
-.dinfo22 a {
-    position: absolute;
-    bottom: 11px;
-    right: 0;
-    text-decoration: none;
-    color: white;
-padding: 7px 26px;
-border-radius: 25px;
-background: var(---, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
-box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
 }
 
 .but{
     height: 50px;
-    margin: 96px auto;
+    width: 915px;
+    margin: 60px auto ;
+    padding: 35px 0 0 530px ;
 }
 .buton{
-    width: 385px;
-    margin: 0 auto;
+    width: 304px;
 }
 .buton a {
     width: 304px;
@@ -661,6 +424,37 @@ font-weight: 600;
 line-height: normal;
 }
 
+
+.section2{
+    width: 1280px;
+    height: 310px;
+}
+
+.blouk{
+    padding-top: 38px;
+    padding-left: 40px;
+}
+.bloukText{
+    width: 433px;
+    height: 209px;
+}
+#em{
+    color:  #2B7AF1;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 40px;
+}
+#me{
+    color:  #111;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
