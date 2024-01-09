@@ -1384,7 +1384,7 @@ box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20), 0px 7px 5px 0px rgba(0, 0
         bottom: 45px;
     }
     .zag h1{
-color: #FFF;
+color: #000000;
 text-align: center;
 font-family: Montserrat;
 font-size: 20px;
@@ -1393,8 +1393,8 @@ font-weight: 800;
 line-height: normal;
     }
     .zag p {
-        font-size: ;
-        color: #FFF;
+        font-size: 14px;
+        color: #000000;
 text-align: center;
 font-family: Inter;
 font-size: 14px;
@@ -1639,4 +1639,234 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
     }
+
+    /*/////////////////////////////////*/
+
+
+
+    .d p{
+        width: 108.75px;
+        margin: 0 auto;
+color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+    }
+    #new {
+        display: none;
+    }
+    .d p {
+        margin-top: 114px;
+    }
+    .d span{
+        color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .d h2 {
+        margin: 0;
+        margin-top: 30px;
+        color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .ddown{
+        margin: 0;
+        display: flex;
+    }
+    .ddown p{
+        display: none;
+    }
+    .ddown img{
+        display: none;
+    }
+    .ddown a{
+        width: 120px;
+        flex-shrink: 0;
+        margin: 14px 0 0 10px;
+        justify-content: center;
+        display: flex;
+width: 120px;
+padding: 6px 0px;
+align-items: center;
+gap: 10px;
+color: var(--, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .d{
+        width: 140px;
+        height: 246px;
+        border-radius: 10px;
+    }
+    .dd{
+        width: 140px;
+        height: 246px;
+        border-radius: 10px;
+        
+    }
+    .rentdown{
+        width: 288px;
+        gap: 8px;
+        margin: 10px auto;
+    }
+
+
+    .idownp{
+        width: 120px;
+        
+    }
+    .idownpp{
+        width: 120px;
+    }
+    .ddown{
+        width: 120px;
+    }
+    .dddown{
+        width: 120px;
+    }
+    /*///////////////////////////////*/
+
+    .dd p{
+        width: 108.75px;
+        margin: 0 auto;
+color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+    }
+    #nurik {
+        width: 108.75px;
+        margin: 123px 15.25px 0 16px;
+    }
+    #nurik span{
+        color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    #nurik{
+        color: var(--, #111);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .dd h2 {
+        margin: 0;
+        margin-top: 15px;
+        color: var(--, #111);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .dddown {
+        margin: 0;
+        display: flex;
+    }
+    .dddown p{
+        display: none;
+    }
+    .dddown img{
+        display: none;
+    }
+    .dddown a{
+        width: 120px;
+        flex-shrink: 0;
+        margin: 14px 0 0 10px;
+        justify-content: center;
+        display: flex;
+width: 120px;
+padding: 6px 0px;
+align-items: center;
+gap: 10px;
+color: var(--, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .but{
+        margin: 19px auto;
+    }
+.but a{
+    display: flex;
+width: 224px;
+height: 17px;
+padding: 6px 20px;
+justify-content: center;
+align-items: center;
+color:  #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section2{
+    width: 320px;
+    
+}
+#em {
+    margin: 5px 183px 0 0;
+    color: #2B7AF1;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+#me{
+    margin: 22px 0 0 15px;
+    color: #111;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 288px;
+
+}
+.blouk{
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.bloukText{
+    width: 288px;
+
+}
 }
