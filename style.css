@@ -1869,4 +1869,45 @@ width: 288px;
     width: 288px;
 
 }
+.rightIcon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 276px;
+    height: 140px;
+    padding: 0;
+    gap: 22px   ;
+}
+.kli{
+    width: 126px;
+}
+.kli img{
+    width: 50px;
+    height: 50px;
+}
+.txt{
+    gap: 10px;
+}
+.txt h3{
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.txt p{
+    color: #000;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.wechat{
+    width: 128px;
+}
+.house{
+    width: 119px;
+}
 }
