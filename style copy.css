@@ -1246,6 +1246,9 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+.mob img{
+    display: none;
+}
 .niiz{
     display: flex;
     padding-top: 415px;

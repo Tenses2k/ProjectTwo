@@ -1316,6 +1316,9 @@ background-color: white;
 
 
 }
+.mob img{
+    display: none;
+}
 .niiz{
     margin-bottom: 22px;
 }
@@ -1867,6 +1870,7 @@ width: 288px;
 }
 .bloukText{
     width: 288px;
+    height: 176px;
 
 }
 .rightIcon{
@@ -1876,10 +1880,13 @@ width: 288px;
     width: 276px;
     height: 140px;
     padding: 0;
-    gap: 22px   ;
+    gap: 1px;
+    margin: 0;
+    margin: 0 18px;
 }
 .kli{
     width: 126px;
+    margin-right: 21px;
 }
 .kli img{
     width: 50px;
@@ -1907,7 +1914,407 @@ line-height: normal;
 .wechat{
     width: 128px;
 }
+.wechat img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.txt1{
+    gap: 10px;
+}
+.txt1 h3{
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.txt1 p {
+    color: #000;
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .house{
     width: 119px;
+    justify-content: flex-end;
+}
+.house img { width: 50px;
+    height: 50px;
+margin-left: 20px;}
+.txt2{
+    gap: 7px;
+}
+.txt2 h3{
+    color: #2B7AF1;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.txt2 p{
+    color: #000;
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.underline{
+    margin: 50px auto;
+    width: 288px;
+}
+.sec2{
+    width: 320px;
+    flex-direction: column;
+}
+
+.leftsite{
+    width: 320px;
+}
+.kontakti{
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 16px;
+    gap: 19px;
+    height: 154px;
+}
+.kontakti h2{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.prochee img {
+    width: 25px;
+    height: 25px;
+}
+#pipi{
+    width: 278px;
+    height: 25px;
+}
+#pip {
+    color: var(--, #111);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#set img {
+    width: 25px;
+    height: 25px;
+}
+#set{
+    width: 25px;
+    height: 25px;
+}
+.vk p {display: none;}
+.vk a{
+    margin: 0;
+}
+.instt p {
+    display: none;
+    
+}
+.instt a {
+    display: none;
+}
+.seti{
+    padding: 0;
+    flex-direction: row;
+    gap: 15px;
+    width: 278px;
+    height: 33px;
+    margin: 38px 0 0 15px;
+}
+.vk a {
+    display: flex;
+width: 154px;
+height: 18px;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.rightsire{
+    width: 288px;
+height: 200px;
+flex-shrink: 0;
+margin: 0 auto;
+margin-top: 30px;
+border-radius: 10px;
+/* Shadow */
+box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.10);
+background-size: 302px 216px;
+}
+.backk{
+    width: 320px;
+    height: 532px;
+    margin: 0;
+    margin-top: 96px; 
+}
+.otzivi{
+    margin: 0;
+    width: 320px;
+}
+.otzivi h1 {
+    color: var(--, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 0;
+padding: 0;
+width: 238px;
+height: 29px;
+margin: 0px 66px 20px 16px;
+padding-top: 50px;
+}
+.blokiOtziv{
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+}
+.blockkk1{
+    width: 288px;
+    height: 175px;
+    margin: 0 auto;
+}
+.blockkk2{
+    width: 288px;
+    height: 198px;
+    margin: 0 auto;
+}
+.blik{
+    margin: 0;
+}
+.up h2{color: var(--, #2B7AF1);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.up{
+    margin: 0;
+    gap: 54px;
+    margin: 10px 0 0 10px;
+    height: 33px;
+}
+.up img {
+    width: 80px;
+    height: 16px;
+}
+.mid p{
+    color: var(--, #111);
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 268px;
+height: 80px;
+margin: 0 auto;
+width: 268px;
+
+}
+.dn{
+    width: 288px;
+    height: 28px;
+    gap: 71px;
+margin: 13px 0 10px 0;
+    
+}
+.ek{
+padding: 0px 0px 10px 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+}
+.ek h3 {
+    color: var(--, #2B7AF1);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 13px */
+}
+.ek p {
+    color: var(--, #111);
+font-family: Montserrat;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 10.4px */
+}
+#yan{
+    color: var(--, #111);
+text-align: right;
+font-family: Montserrat;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+height: 27px;
+margin-left: 10px;
+}
+.blin{
+    width: 320px;
+    margin: 0;
+}
+.verh{
+    
+    gap: 10px;
+}
+.verh img {
+    width: 80px;
+    height: 16px;
+    margin: 10px 0 0 0;
+}
+.verh h2 {
+    color: var(--, #2B7AF1);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 10px;
+}
+.blockkk2 .mid{
+    width: 288px;
+    margin-top: 5px;
+
+}
+.mid p {
+    margin: 0 10px;
+}
+.snizu{
+    gap: 50px;
+}
+.ke{
+    padding: 0px 0px 10px 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+margin-top: 40px;
+}
+.ke h3 {
+    color: var(--, #2B7AF1);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 13px */
+}
+.ke p {
+    color: var(--, #111);
+font-family: Montserrat;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 10.4px */
+}
+.blockkk2 #yan{
+    margin: 40px 0 0 45px;
+}
+.kuhnya {
+    display: none;
+}
+.conec{
+    width: 320px;
+    height: 457px;
+}
+.textconec{
+    display: none;
+}
+.anketa{
+    width: 288px;
+height: 337px;
+flex-shrink: 0;
+    margin: 0;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.10);
+}
+
+.anketa1 h3 {
+    color: var(--, #2B7AF1);
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 0;
+margin: 30px 0 14px 0;
+width: 288px;
+}
+.anketa1 input {
+    width: 246.645px;
+height: 35px;
+flex-shrink: 0;
+margin: 10px 21.16px 0 20.2px;
+width: 236px;
+}
+#bigas {
+    width: 236px;
+height: 90px;
+flex-shrink: 0;
+}
+#poper{
+    margin: 0;
+    margin: 0 21.16px 0 20.2px ;
+}
+.knopik a {
+    display: flex;
+width: 198px;
+padding: 8px 0px;
+justify-content: center;
+align-items: center;
+}
+.knopik{
+    margin: 13px 43px;
+}
+.mob img{
+    display: block;
+flex-shrink: 0;
+width: 106px;
+height: 48px;
+flex-shrink: 0;
+margin: 6px 0 6px 16px;
+}
+.mob{
+    width: 320px;
+height: 60px;
+flex-shrink: 0;
+background: #2B7AF1;
+display: flex;
+gap: 45px;
+}
+.society{
+    display: flex;
+    gap: 10px;
+    width: 110px;
+    height: 20px;
+}
+.society img {
+    width: 20px;
+    height: 20px;
+}
+.society a {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 0;
 }
 }
